@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------------------------
+
+> Atual: 1.0
+
+---------------------------------------------------------------------------------------------
+
+> Git add + Commit:
+
+Adicionando conteúdo da unidade 1.0
+
+Ex.: [$ git add . && git commit -m "Adicionando conteúdo da unidade X.X"]
+
+---------------------------------------------------------------------------------------------
+
+> Merge + Enviar Origin > DEV:
+
+feature/unidade-1-0
+
+Ex.¹: [$ git checkout -b feature/nome-feature]
+
+---------------------------------------------------------------------------------------------
+
+> Criar "Release, MERGE na main e Tag":
+
+release/v1.0
+Versão contemplando unidade 1.0
+main > MERGE > development
+v1.0
+
+Ex¹.: [$ git checkout -b release/vX.X && git tag -a vX.X -m "Versão contemplando unidade X.X"]
+Ex².: [$ git push && git push origin vX.X] Após MERGE com DEV
+
+---------------------------------------------------------------------------------------------
+
+> Criar "Nova Feature" para futuras modificações:
+
+feature/unidade-1-1
+
+Ps.: Verificar se ainda existe mais alterações a serem criadas.
+
+Ex.: [$ git checkout -b feature/unidade-X.X]
+
+---------------------------------------------------------------------------------------------

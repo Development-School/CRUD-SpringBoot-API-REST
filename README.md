@@ -102,6 +102,11 @@ server.port=8000
 
 Leia mais sobre as anotações [aqui](https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/).
 
+- Para visualizar a aplicação e testar o CRUD entre em um dos seguintes links:
+
+[http://localhost:8000/crud-spring-boot-rest-api/](http://localhost:8000/crud-spring-boot-rest-api/)
+ou
+[http://localhost:8000/crud-spring-boot-rest-api/index.html](http://localhost:8000/crud-spring-boot-rest-api/index.html)
 
 [IMAGEM]
 
@@ -117,26 +122,30 @@ Leia mais sobre as anotações [aqui](https://strn.com.br/artigos/2018/12/11/tod
 
 ```
 
-## Getting help
+## Conseguindo ajuda
 
-Any usage issues can ask for help via
+Quaisquer problemas de uso podem tirar suas duvidas via
 
-* [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
-* [IRC channel](https://webchat.freenode.net/?channels=deepin)
-* [Forum](https://bbs.deepin.org)
-* [WiKi](https://wiki.deepin.org/)
+* [Instagram](https://www.instagram.com/lucascaminhaslz/)
+* [Telegram](https://t.me/lcaminha)
+* [Linkedin](https://www.linkedin.com/in/lcaminha/)
+* [Facebook](https://www.facebook.com/lcaminha)
+* [Twiter](https://twitter.com/lucascaminhaslz)
+* [StackOverFlow](https://stackoverflow.com/users/4784304/lucas-caminha)
 
-## Getting involved
 
-We encourage you to report issues and contribute changes
+## Créditos e Referências
 
-* [Contribution guide for users.](http://wiki.deepin.org/index.php?title=Contribution_Guidelines_for_Users)
-* [Contribution guide for developers.](http://wiki.deepin.org/index.php?title=Contribution_Guidelines_for_Developers).
-
-## License
-
-Deepin Boot Maker is licensed under [GPLv3](LICENSE).
-
-## Credits and references
-
-1. [UNetbootin](https://github.com/unetbootin/unetbootin): this projects is derived form unetbootin, but now there are big differences between them.
+1. [CRUD Completo com Spring Boot REST API](https://projetojavaweb.com/certificado-aluno/plataforma-curso/aulagratuita?codigoCurso=10&token=8e551ac1-b128-4bc3-bdf5-91ab81ab5c9f): CRUD Completo de Spring Boot da JDev Treinamento.
+2. [REST APIs Básico - Introdução](https://www.youtube.com/watch?v=P1Mm-gTi5i8&list=PL3B-OV5dZTqbaLi1f2UmXEWbcx9WyYaTX): Esta série de vídeos ensina REST APIs em um nível básico.
+3. [CRUD em API Rest com Spring Boot, H2, Maven e JPA+ Hibernate](https://mmarcosab.medium.com/crud-em-api-rest-com-spring-boot-h2-maven-e-jpa-hibernate-e-documenta%C3%A7%C3%A3o-com-swagger-parte-1-1040e2aae0ed): Este tutorial te ensina a criar o projeto de uma api rest Java usando o framework Spring Boot, H2 e JPA + Hibernate, além de documentar com Swagger.
+4. [Criando uma API REST com o Spring Boot](https://www.treinaweb.com.br/blog/criando-uma-api-rest-com-o-spring-boot): Todos os passos da criação de uma API REST com o framework Spring Boot do Java, no Visual Studio Code.
+5. [Como Fazer Uma API](https://www.youtube.com/watch?v=f7JWDLFhR_c): Aprender a programar uma API Rest (REST API) utilizando Variáveis de Ambiente (Environment Variables).
+6. [Aprenda a criar um projeto Spring Boot pelo VS Code](https://www.youtube.com/watch?v=D_K3po7er70): Aprenda como criar um projeto Spring Boot através do VS Code
+7. [Spring Boot JPA + H2 example: Build a CRUD Rest APIs](https://www.bezkoder.com/spring-boot-jpa-h2-example/): Neste tutorial, vamos construir um exemplo de API da Spring Boot Rest Crud com o Maven que usa o Spring Data JPA para interagir com o banco de dados H2.
+8. [Java no Visual Studio Code: Projetos com Spring Boot](https://www.youtube.com/watch?v=dkmlOi_MNb4): Vídeo tutorial como criar e executar projetos Java com Spring Boot no Visual Studio Code.
+9. [REST API com Java/Spring (6 horas)](https://www.youtube.com/playlist?list=PLg5-aZqPjMmAjcS-7lDTdWry9_KvappUF): Playlist do Hélio Kamakawa com 8 vídeos sobre REST API.
+10. [API Spring Boot, JPA e H2 do jeito certo PASSO A PASSO](https://www.youtube.com/watch?v=HHXn-nT3g10): Criação de projeto Spring Boot do Zero.
+11. [JPA: Como usar a anotação @Entity](https://www.devmedia.com.br/jpa-como-usar-a-anotacao-entity/38410): Nesta documentação você aprenderá a utilizar a anotação @Entity para informar que uma classe representa uma entidade e que seus objetos devem ser persistidos no banco de dados.
+12. [JPA: Como usar a anotação @Id](https://www.devmedia.com.br/jpa-como-usar-a-anotacao-id/38508#:~:text=A%20anota%C3%A7%C3%A3o%20I%40Id%20%C3%A9,caso%20ela%20n%C3%A3o%20esteja%20presente.): Já nesta documentação você aprenderá a utilizar a anotação @Entity.
+13. [Todas as anotações do JPA: Anotações de Mapeamento](https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/): Este arquivo fornece as anotações de mapeamento do JPA para referência rápida e/ou resumo. Vamos começar!

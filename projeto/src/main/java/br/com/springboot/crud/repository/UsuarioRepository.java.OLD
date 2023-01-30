@@ -1,0 +1,23 @@
+package br.com.springboot.crud.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import br.com.springboot.crud.model.Usuario;
+
+@Repository
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+
+	/*Implementação para buscar no banco de dados por parte do nome*/
+	
+	//@Query(value = "select * from usuario u where u.nome like %?1%") //erro
+	//@Query(value = "select u from Usuario u where upper(u.nome) like upper(%?1%)"//erro
+	
+	//@Query(value = "select u from Usuario u where u.nome like %?1%") /*Padrão aceitável*/
+	
+	@Query(value = "select u from Usuario u where upper(trim(u.nome)) like %?1%")
+	List<Usuario> buscarPorNome(String name);
+}

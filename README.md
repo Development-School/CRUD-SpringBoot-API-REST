@@ -1,7 +1,7 @@
 
 # CRUD Completo SpringBoot API-REST
 <br>
-Sistema de cadastro como exemplo para salvar, atualizar, buscar e deletar registros em um banco de dados utilizando REST-APIS.
+Sistema de cadastro para salvar, atualizar, buscar e deletar registros em um banco de dados utilizando REST-APIS.
 <br><br><br>
 
 ![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/0.%20Sistema%20de%20Gest%C3%A3o%20de%20Pessoas.png)
@@ -29,7 +29,7 @@ Pré-requisitos (Sistema):
 - Apache Tomcat
 
 - Navegador (Utilizamos o [Google Chrome](https://www.google.com/intl/pt-BR/chrome/))
-
+<br>
 Dependências (Spring Boot/Java):
 
 - Spring Boot DevTools
@@ -44,11 +44,9 @@ Dependências (Spring Boot/Java):
 
 - H2 DataBase
 
-- Spring 
-
 ## Instruções para rodar o Projeto
 
-- Baixe o projeto aqui do GitHub ou faça [clone](https://github.com/Development-School/CRUD-SpringBoot-API-REST) do projeto pelo seguinte comando pelo console ou CMD:
+- Baixe o projeto aqui do GitHub ou faça [clone](https://github.com/Development-School/CRUD-SpringBoot-API-REST) do projeto pelo seguinte comando em seu console ou CMD:
 
 ```bash
 git clone https://github.com/Development-School/CRUD-SpringBoot-API-REST.git
@@ -58,7 +56,7 @@ git clone https://github.com/Development-School/CRUD-SpringBoot-API-REST.git
 
 ![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/1.%20Projeto.png)
 
-- Spring Boot server configuration
+- Configurações do Servidor do Spring Boot
 
 > As configurações do servidor já estão todas preenchidas, favor se atentar aos caminhos de contexto, como o do ["H2 Database"](https://www.h2database.com/html/main.html) e do "context-path"
 
@@ -74,7 +72,7 @@ spring.h2.console.path=/h2
 
 ![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/2.%20Configura%C3%A7%C3%B5es%20do%20Servidor.png)
 
-- Para rodar o programa abra o arquivo "application.properties" em seu VS Code e rode o sistema conforme ilustrado abaixo
+- Para rodar o programa abra o arquivo "Application.java" em seu VS Code e rode o sistema conforme ilustrado abaixo
 
 ![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/3.%20Iniciando%20projeto.png)
 
@@ -89,6 +87,7 @@ spring.h2.console.path=/h2
 1. Note que a porta utilizada nós definimos lá no arquivo "application.properties":
 
 ```bash
+# Configuração de porta
 server.port=8000
 ```
 
@@ -103,9 +102,9 @@ server.port=8000
 [@Entity](https://www.devmedia.com.br/jpa-como-usar-a-anotacao-entity/38410)<BR>
 [@Id](https://www.devmedia.com.br/jpa-como-usar-a-anotacao-id/38508#:~:text=A%20anota%C3%A7%C3%A3o%20I%40Id%20%C3%A9,caso%20ela%20n%C3%A3o%20esteja%20presente.)
 
-Leia mais sobre as anotações [aqui](https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/).
+Leia mais sobre anotações [aqui](https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/).
 
-- Para visualizar a aplicação e testar o CRUD entre em um dos seguintes links:
+- Para visualizar a aplicação e testar o CRUD entre em um dos seguintes links e pronto:
 
 [http://localhost:8000/crud-spring-boot-rest-api/](http://localhost:8000/crud-spring-boot-rest-api/)
 ou

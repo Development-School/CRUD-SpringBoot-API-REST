@@ -110,18 +110,6 @@ ou
 
 [IMAGEM]
 
-- 
-
-```bash
-
-
-```
-
-```bash
-
-
-```
-
 ## Conseguindo ajuda
 
 Quaisquer problemas de uso podem tirar suas duvidas via

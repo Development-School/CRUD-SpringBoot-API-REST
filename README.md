@@ -1,9 +1,10 @@
 
 # CRUD Completo SpringBoot API-REST
-
+<br>
 Sistema de cadastro como exemplo para salvar, atualizar, buscar e deletar registros em um banco de dados utilizando REST-APIS.
+<br><br><br>
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/0.%20Sistema%20de%20Gest%C3%A3o%20de%20Pessoas.png)
 
 ## Dependëncias
 
@@ -55,7 +56,7 @@ git clone https://github.com/Development-School/CRUD-SpringBoot-API-REST.git
 
 - Abra o projeto em seu VS Code
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/1.%20Projeto.png)
 
 - Spring Boot server configuration
 
@@ -71,11 +72,11 @@ spring.h2.console.path=/h2
 
 ```
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/2.%20Configura%C3%A7%C3%B5es%20do%20Servidor.png)
 
 - Para rodar o programa abra o arquivo "application.properties" em seu VS Code e rode o sistema conforme ilustrado abaixo
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/3.%20Iniciando%20projeto.png)
 
 > Iremos notar que no console já exibirá o Spring Boot sendo executado
 
@@ -83,7 +84,7 @@ spring.h2.console.path=/h2
 
 [http://localhost:8000/crud-spring-boot-rest-api/h2](http://localhost:8000/crud-spring-boot-rest-api/h2)
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/4.%20Brownser%20-%20H2.png)
 
 1. Note que a porta utilizada nós definimos lá no arquivo "application.properties":
 
@@ -91,9 +92,11 @@ spring.h2.console.path=/h2
 server.port=8000
 ```
 
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/5.%20Porta%20Servidor.png)
+
 2. Note também que ao iniciar o programa as tabelas já foram criadas no banco H2:
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/6.%20Tabelas%20Criadas.png)
 
 > A criação das mesmas são realizadas através das seguintes anotações:
 
@@ -108,7 +111,7 @@ Leia mais sobre as anotações [aqui](https://strn.com.br/artigos/2018/12/11/tod
 ou
 [http://localhost:8000/crud-spring-boot-rest-api/index.html](http://localhost:8000/crud-spring-boot-rest-api/index.html)
 
-[IMAGEM]
+![screenshot](https://github.com/Development-School/CRUD-SpringBoot-API-REST/blob/main/Imagens/7.%20Aplica%C3%A7%C3%A3o.png)
 
 ## Conseguindo ajuda
 
